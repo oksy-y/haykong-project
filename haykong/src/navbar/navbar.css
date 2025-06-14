@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #1a3642, #2e525f, #396a7f);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.navbarWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbarContainer {
+  width: 100%;
+  max-width: 1200px;
+  padding: 1rem 2rem;
+  background: rgba(0, 30, 60, 0.6);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 50, 0.3);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo img {
+  height: 60px;  
+  width: auto;
+  display: block;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00bfff;
+  text-shadow: 0 0 10px rgba(0, 191, 255, 0.6);
+}
+
+.headingTitle {
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+.signup a {
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #00c6ff, #0072ff);
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.6);
+}
+
+.signup a:hover {
+  background: linear-gradient(145deg, #0072ff, #00c6ff);
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 0.5rem;
+}
+
+.navLinks a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.navLinks a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #00c6ff;
+  transition: width 0.3s;
+}
+
+.navLinks a:hover {
+  color: #00c6ff;
+}
+
+.navLinks a:hover::after {
+  width: 100%;
+}
+
+.navLinks .active {
+  color: #00c6ff;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 198, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  .top-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
