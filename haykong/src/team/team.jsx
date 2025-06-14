@@ -2,6 +2,7 @@ import React from 'react';
 import './team.css';
 
 import ika from '../assets/ika.jpg';
+import tigran from '../assets/tigran.jpg';
 import artyom from '../assets/artyom.jpg';
 
 
@@ -24,7 +25,7 @@ const Team = () => {
   const professors = [
     { name: 'Arman', surname: 'Khalatyan', image: '/', role: 'AI' },
     { name: 'Sargis', surname: 'Grigoryan', image: '/', role: 'AI' },
-    { name: 'Tigran', surname: 'Gharagulyan', image: '/', role: 'QA' },
+    { name: 'Tigran', surname: 'Gharagulyan', image: tigran, role: 'QA' },
     { name: 'Vahe', surname: 'Khazaryan', image: '/', role: 'Web' },
     { name: 'Narine', surname: 'Kosyan', image: '/', role: 'Web' },
     { name: 'Garik', surname: 'Galstyan', image: '/', role: 'Devops' },
