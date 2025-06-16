@@ -5,11 +5,14 @@ const Footer = () => {
   return (
     <footer className="footerContainer">
       <div className="names-grid">
-        <div>name surname</div>
-        <div>name surname</div>
-        <div>name surname</div>
-        <div>name surname</div>
+        <div>Vahe Ghazaryan </div>
+        <div>Oksana Aghabekyan</div>
+        <div>Gayane Matevosyan</div>
+        <div>Inessa Alexanyan</div>
+        <div>Artyom Manasyan </div>
+        <div>Irina Harutyunyan</div>
       </div>
+      <h3>AEAEIEC Web Team</h3>
       <p>© all rights reserved. 2025.</p>
     </footer>
   );

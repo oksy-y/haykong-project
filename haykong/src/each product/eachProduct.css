@@ -1,0 +1,42 @@
+.eachProductWrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: white;
+}
+
+.eachProductCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 198, 255, 0.2);
+  flex-wrap: wrap; /* Makes it responsive */
+}
+
+.eachProductCard img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.eachProductContent {
+  flex: 1;
+}
+
+.eachProductCard h1 {
+  font-weight: bold;
+  color: #00c6ff;
+  text-shadow: 0 0 8px rgba(0, 198, 255, 0.4);
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.eachProductCard p {
+  text-align: left;
+  line-height: 1.6;
+}

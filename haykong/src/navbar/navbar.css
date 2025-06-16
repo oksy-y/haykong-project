@@ -17,9 +17,9 @@ body {
 }
 
 .navbarContainer {
-  width: 100%;
-  max-width: 1200px;
-  padding: 1rem 2rem;
+  width: 1440px;
+  /* max-width: 1200px; */
+  padding: 2rem 2rem;
   background: rgba(0, 30, 60, 0.6);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -31,7 +31,7 @@ body {
 }
 
 .logo img {
-  height: 60px;  
+  height: 80px;  
   width: auto;
   display: block;
 }
@@ -41,6 +41,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  position: relative;
 }
 
 .logo {
@@ -51,25 +52,15 @@ body {
 }
 
 .headingTitle {
-  font-size: 1.8rem;
+  text-align: center;
+  font-size: 1.6rem;
   color: #ffffff;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+  position: absolute;         
+  left: 50%;                  
+  transform: translateX(-50%);
 }
 
-.signup a {
-  padding: 0.5rem 1rem;
-  border-radius: 30px;
-  background: linear-gradient(145deg, #00c6ff, #0072ff);
-  color: white;
-  text-decoration: none;
-  transition: background 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 0 10px rgba(0, 191, 255, 0.6);
-}
-
-.signup a:hover {
-  background: linear-gradient(145deg, #0072ff, #00c6ff);
-  box-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
-}
 
 .navLinks {
   display: flex;

@@ -2,8 +2,26 @@ import React from 'react';
 import './team.css';
 
 import ika from '../assets/ika.jpg';
-import tigran from '../assets/tigran.jpg';
 import artyom from '../assets/artyom.jpg';
+import inessa from '../assets/inessa.jpg';
+import mane from '../assets/mane.jpg';
+import anush from '../assets/anush.jpg';
+import arman from '../assets/arman.jpg';
+import nare from '../assets/nare.jpg';
+import irina from '../assets/irina.jpg';
+import oksana from '../assets/oksana.jpg';
+import gayane from '../assets/gayane.jpg';
+import armanKH from '../assets/armanKH.jpg';
+import hexine from '../assets/hexine.jpg';
+import miqael from '../assets/miqael.jpg';
+import narine from '../assets/narine.png';
+import sargis from '../assets/sargis.jpg';
+import seda from '../assets/seda.jpg';
+import tigran from '../assets/tigran.jpg';
+import vaheAI from '../assets/vaheAI.jpg';
+import vahe from '../assets/vahe.jpg';
+import david from '../assets/david.jpg';
+import aharon from '../assets/aharon.jpg';
 
 
 const Team = () => {
@@ -18,34 +36,34 @@ const Team = () => {
   };
 
   const leaders = [
-    { name: 'Mikayel', surname: 'Minasyan', image: '/', role: 'President' },
-    { name: 'Seda', surname: 'Vardazaryan', image: '/', role: 'Director' }
+    { name: 'Mikayel', surname: 'Minasyan', image: miqael, role: 'Founder' },
+    { name: 'Seda', surname: 'Vardazaryan', image: seda, role: 'CEO' }
   ];
 
   const professors = [
-    { name: 'Arman', surname: 'Khalatyan', image: '/', role: 'AI' },
-    { name: 'Sargis', surname: 'Grigoryan', image: '/', role: 'AI' },
+    { name: 'Arman', surname: 'Khalatyan', image: armanKH, role: 'AI' },
+    { name: 'Sargis', surname: 'Grigoryan', image: sargis, role: 'AI' },
     { name: 'Tigran', surname: 'Gharagulyan', image: tigran, role: 'QA' },
-    { name: 'Vahe', surname: 'Khazaryan', image: '/', role: 'Web' },
-    { name: 'Narine', surname: 'Kosyan', image: '/', role: 'Web' },
+    { name: 'Vahe', surname: 'Khazaryan', image: vahe, role: 'Web' },
+    { name: 'Narine', surname: 'Kosyan', image: narine, role: 'Web' },
     { name: 'Garik', surname: 'Galstyan', image: '/', role: 'Devops' },
-    { name: 'Hexine', surname: 'Kharazyan', image: '/', role: 'English' },
-    { name: 'Aharon', surname: 'Hayrapetyan', image: '/', role: 'Maths' },
+    { name: 'Hexine', surname: 'Kharazyan', image: hexine, role: 'English' },
+    { name: 'Aharon', surname: 'Hayrapetyan', image: aharon, role: 'Maths' },
   ];
 
   const aiStudents = [
-    { name: 'David', surname: 'Petrosyan', image: '/' },
-    { name: 'Nare', surname: 'Shaqaryan', image: '/' },
-    { name: 'Mane', surname: 'Khanazaryan', image: '/' },
+    { name: 'David', surname: 'Petrosyan', image: david },
+    { name: 'Nare', surname: 'Shaqaryan', image: nare },
+    { name: 'Mane', surname: 'Khanazaryan', image: mane },
     { name: 'Irina', surname: 'Vardanyan', image: ika },
-    { name: 'Vahe', surname: 'Ayvazyan', image: '/' },
+    { name: 'Vahe', surname: 'Ayvazyan', image: vaheAI },
   ];
 
   const webStudents = [
-    { name: 'Inessa', surname: 'Alexanyan', image: '/' },
-    { name: 'Oksana', surname: 'Aghabekyan', image: '/' },
-    { name: 'Gayane', surname: 'Matevosyan', image: '/' },
-    { name: 'Irina', surname: 'Harutyunyan', image: '/' },
+    { name: 'Inessa', surname: 'Alexanyan', image: inessa },
+    { name: 'Oksana', surname: 'Aghabekyan', image: oksana },
+    { name: 'Gayane', surname: 'Matevosyan', image: gayane },
+    { name: 'Irina', surname: 'Harutyunyan', image: irina },
     { name: 'Artyom', surname: 'Manasyan', image: artyom },
   ];
 
@@ -56,29 +74,29 @@ const Team = () => {
 
   const qaStudents = [
     { name: 'Arayik', surname: 'Avanesyan', image: '/' },
-    { name: 'Arman', surname: 'Avagimyan', image: '/' },
-    { name: 'Oksana', surname: 'Aghabekyan', image: '/' },
-    { name: 'Irina', surname: 'Vardanyan', image: '/' },
-    { name: 'Mane', surname: 'Khanazaryan', image: '/' },
+    { name: 'Arman', surname: 'Avagimyan', image: arman },
+    { name: 'Oksana', surname: 'Aghabekyan', image: oksana },
+    { name: 'Irina', surname: 'Vardanyan', image: ika },
+    { name: 'Mane', surname: 'Khanazaryan', image: mane },
     { name: 'Aren', surname: 'Movsesyan', image: '/' },
-    { name: 'Anush', surname: 'Sargsyan', image: '/' },
+    { name: 'Anush', surname: 'Sargsyan', image: anush },
     { name: 'Nerses', surname: 'Mezhlumyan', image: '/' },
     { name: 'Andranik', surname: 'Simonyan', image: '/' },
-    { name: 'Artyom', surname: 'Manasyan', image: '/' },
+    { name: 'Artyom', surname: 'Manasyan', image: artyom },
   ];
 
   return (
     <div className="teamPageWrapper">
       <h1>Our Team</h1>
 
-      <h2>President & Director</h2>
+      <h2>Founder & CEO</h2>
       <div>
         {leaders.map((person, index) => (
           <TeamCard key={index} {...person} />
         ))}
       </div>
 
-      <h2>Teachers</h2>
+      <h2>Lecturers</h2>
       <div>
         {professors.map((person, index) => (
           <TeamCard key={index} {...person} />

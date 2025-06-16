@@ -6,12 +6,12 @@
   display: flex;
   justify-content: center;
   align-items: flex-start; 
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
 }
 
 .pageContainer {
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1440px; */
   padding: 1rem 2rem;
   background: rgba(0, 30, 60, 0.6);
   backdrop-filter: blur(10px);

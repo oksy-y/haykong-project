@@ -1,10 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import './App.css';
 import Home from "./pages/homepage";
 // import About from './pages/about';
-// import OurProducts from './pages/ourProducts';
-// import EachProduct from './pages/eachProduct';
+import OurProducts from './pages/ourProducts';
+import EachProductPage from './pages/eachProduct';
 // import News from './pages/news';
 import Teams from './pages/team';
 
@@ -14,12 +14,13 @@ function App() {
       <div className="appBackground">
         <div className="pageContainer">
           <Routes>
-            <Route path="/" element={<Home />} />
-            {/* <Route path="/OurProducts" element={<OurProducts />} /> */}
-            {/* <Route path="/product/:id" element={<EachProduct />} /> */}
+            <Route path="/" element={<Navigate to="/general" replace />} />
+            <Route path="/general" element={<Home />} />
+            <Route path="/our-products" element={<OurProducts />} />
+            <Route path="/product/:id" element={<EachProductPage />} />
             <Route path="/team" element={<Teams />} />
-            {/* <Route path="/News" element={<News />} /> */}
-            {/* <Route path="/About" element={<About />} /> */}
+            {/* <Route path="/news" element={<News />} /> */}
+            {/* <Route path="/about" element={<About />} /> */}
           </Routes>
         </div>
       </div>
