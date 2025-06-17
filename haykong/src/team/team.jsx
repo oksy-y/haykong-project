@@ -22,6 +22,8 @@ import vaheAI from '../assets/vaheAI.jpg';
 import vahe from '../assets/vahe.jpg';
 import david from '../assets/david.jpg';
 import aharon from '../assets/aharon.jpg';
+import garik from '../assets/garik.jpg';
+import arayik from '../assets/arayik.jpg';
 
 
 const Team = () => {
@@ -46,7 +48,7 @@ const Team = () => {
     { name: 'Tigran', surname: 'Gharagulyan', image: tigran, role: 'QA' },
     { name: 'Vahe', surname: 'Khazaryan', image: vahe, role: 'Web' },
     { name: 'Narine', surname: 'Kosyan', image: narine, role: 'Web' },
-    { name: 'Garik', surname: 'Galstyan', image: '/', role: 'Devops' },
+    { name: 'Garik', surname: 'Galstyan', image: garik, role: 'Devops' },
     { name: 'Hexine', surname: 'Kharazyan', image: hexine, role: 'English' },
     { name: 'Aharon', surname: 'Hayrapetyan', image: aharon, role: 'Maths' },
   ];
@@ -73,7 +75,7 @@ const Team = () => {
   ];
 
   const qaStudents = [
-    { name: 'Arayik', surname: 'Avanesyan', image: '/' },
+    { name: 'Arayik', surname: 'Avanesyan', image: arayik },
     { name: 'Arman', surname: 'Avagimyan', image: arman },
     { name: 'Oksana', surname: 'Aghabekyan', image: oksana },
     { name: 'Irina', surname: 'Vardanyan', image: ika },

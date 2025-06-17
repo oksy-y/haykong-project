@@ -1,7 +1,8 @@
 .footerContainer {
-  width: 1440px;
-  margin: 4rem auto  auto;
-  padding: 1rem 1.5rem;
+  width: 100%;
+  max-width: 1600px; /* <- Increase max-width */
+  margin: 4rem auto auto;
+  padding: 2rem 3rem; /* <- Slightly more padding */
   background: rgba(0, 30, 60, 0.5);
   backdrop-filter: blur(10px);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -9,7 +10,10 @@
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  box-sizing: border-box;
 }
+
+
 
 .names-grid {
   display: grid;

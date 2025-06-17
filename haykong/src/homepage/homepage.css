@@ -1,0 +1,76 @@
+.imageTextWrapper {
+  position: relative;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;      /* prevents overflow */
+  padding: 0 1.5rem;     /* padding inside container */
+  box-sizing: border-box;
+}
+
+.naturalBgImage {
+  width: 100%;           /* fill container width */
+  height: auto;
+  display: block;
+  max-width: 100%;       /* prevent overflow */
+  box-sizing: border-box;
+}
+
+.overlayText {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;         
+  right: 1.5rem;         
+  z-index: 1;
+  color: #ffffff;
+  max-width: calc(100% - 3rem);  
+  box-sizing: border-box;
+  overflow-wrap: break-word;    
+}
+
+.overlayText h1 {
+  font-size: 2rem;
+  color: #00c6ff;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 5px rgba(0, 50, 63, 0.5);
+  word-break: break-word;       
+}
+
+.overlayText h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ffffffdd;
+  word-break: break-word;
+}
+
+.overlayText p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ffffffcc;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .imageTextWrapper {
+    padding: 0 1rem;      
+  }
+
+  .overlayText {
+    top: 1rem;
+    left: 2rem;
+    right: 1rem;         
+    max-width: calc(100% - 2rem);
+  }
+
+  .overlayText h1 {
+    font-size: 1.6rem;
+  }
+
+  .overlayText h2 {
+    font-size: 1rem;
+  }
+
+  .overlayText p {
+    font-size: 0.95rem;
+  }
+}
