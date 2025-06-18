@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
 .appBackground {
   background: linear-gradient(to right, #1a3642, #2e525f, #396a7f);
@@ -12,7 +22,7 @@
 .pageContainer {
   width: 100%;
   /* max-width: 1440px; */
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
   background: rgba(0, 30, 60, 0.6);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);

@@ -3,67 +3,77 @@
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
-  overflow: hidden;      /* prevents overflow */
-  padding: 0 1.5rem;     /* padding inside container */
+  overflow: hidden;
   box-sizing: border-box;
 }
 
 .naturalBgImage {
-  width: 100%;           /* fill container width */
+  width: 100%;
   height: auto;
   display: block;
-  max-width: 100%;       /* prevent overflow */
+  max-width: 100%;
   box-sizing: border-box;
 }
 
 .overlayText {
   position: absolute;
   top: 2rem;
-  left: 5rem;         
-  right: 1.5rem;         
-  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 800px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   color: #ffffff;
-  max-width: calc(100% - 3rem);  
+  z-index: 1;
   box-sizing: border-box;
-  overflow-wrap: break-word;    
 }
 
 .overlayText h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #00c6ff;
   margin-bottom: 1rem;
   text-shadow: 0 0 5px rgba(0, 50, 63, 0.5);
-  word-break: break-word;       
 }
 
 .overlayText h2 {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
   color: #ffffffdd;
-  word-break: break-word;
 }
 
 .overlayText p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   color: #ffffffcc;
-  word-break: break-word;
 }
 
-@media (max-width: 600px) {
-  .imageTextWrapper {
-    padding: 0 1rem;      
+@media (max-width: 768px) {
+  .overlayText h1 {
+    font-size: 1.6rem;
   }
 
+  .overlayText h2 {
+    font-size: 1.1rem;
+  }
+
+  .overlayText p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
   .overlayText {
-    top: 1rem;
-    left: 2rem;
-    right: 1rem;         
-    max-width: calc(100% - 2rem);
+    top: 5%;
+    width: 95%;
+    padding: 0.5rem;
   }
 
   .overlayText h1 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .overlayText h2 {
@@ -71,6 +81,6 @@
   }
 
   .overlayText p {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }

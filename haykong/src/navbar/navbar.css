@@ -1,12 +1,11 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
   background: linear-gradient(to right, #1a3642, #2e525f, #396a7f);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
 }
 
@@ -18,7 +17,7 @@ body {
 
 .navbarContainer {
   width: 100%;
-  max-width: 1600px; 
+  /* max-width: 1600px;  */
   padding: 2rem 3rem; 
   background: rgba(0, 30, 60, 0.6);
   backdrop-filter: blur(10px);
@@ -28,7 +27,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  margin: 0 auto; 
+  /* margin: 0 auto;  */
   box-sizing: border-box; 
 }
 
