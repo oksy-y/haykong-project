@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="footerContainer">
       <div className="names-grid">
-        <div>Vahe Ghazaryan </div>
         <div>Oksana Aghabekyan</div>
+        <div>Vahe Ghazaryan </div>
         <div>Gayane Matevosyan</div>
         <div>Inessa Alexanyan</div>
         <div>Artyom Manasyan </div>

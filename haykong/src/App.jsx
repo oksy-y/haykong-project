@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import './App.css';
 import Home from "./pages/homepage";
-// import About from './pages/about';
+import About from './pages/about';
 import OurProducts from './pages/ourProducts';
 import EachProductPage from './pages/eachProduct';
 // import News from './pages/news';
@@ -20,7 +20,7 @@ function App() {
             <Route path="/product/:id" element={<EachProductPage />} />
             <Route path="/team" element={<Teams />} />
             {/* <Route path="/news" element={<News />} /> */}
-            {/* <Route path="/about" element={<About />} /> */}
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
       </div>

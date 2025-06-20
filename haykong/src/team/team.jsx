@@ -24,6 +24,7 @@ import david from '../assets/david.jpg';
 import aharon from '../assets/aharon.jpg';
 import garik from '../assets/garik.jpg';
 import arayik from '../assets/arayik.jpg';
+import aren from '../assets/aren.jpg';
 
 
 const Team = () => {
@@ -62,8 +63,8 @@ const Team = () => {
   ];
 
   const webStudents = [
-    { name: 'Inessa', surname: 'Alexanyan', image: inessa },
     { name: 'Oksana', surname: 'Aghabekyan', image: oksana },
+    { name: 'Inessa', surname: 'Alexanyan', image: inessa },
     { name: 'Gayane', surname: 'Matevosyan', image: gayane },
     { name: 'Irina', surname: 'Harutyunyan', image: irina },
     { name: 'Artyom', surname: 'Manasyan', image: artyom },
@@ -71,7 +72,7 @@ const Team = () => {
 
   const devopsStudents = [
     { name: 'Nerses', surname: 'Mezhlumyan', image: '/' },
-    { name: 'Aren', surname: 'Movsesyan', image: '/' },
+    { name: 'Aren', surname: 'Movsesyan', image: aren },
   ];
 
   const qaStudents = [
@@ -80,7 +81,7 @@ const Team = () => {
     { name: 'Oksana', surname: 'Aghabekyan', image: oksana },
     { name: 'Irina', surname: 'Vardanyan', image: ika },
     { name: 'Mane', surname: 'Khanazaryan', image: mane },
-    { name: 'Aren', surname: 'Movsesyan', image: '/' },
+    { name: 'Aren', surname: 'Movsesyan', image: aren },
     { name: 'Anush', surname: 'Sargsyan', image: anush },
     { name: 'Nerses', surname: 'Mezhlumyan', image: '/' },
     { name: 'Andranik', surname: 'Simonyan', image: '/' },

@@ -1,9 +1,9 @@
 import React from 'react';
 import './ourProducts.css';
 import { Link } from 'react-router-dom';
-import first from '../assets/oksana.jpg';
-import second from '../assets/mane.jpg';
-import third from '../assets/ika.jpg';
+import first from '../assets/product1.jpg';
+import second from '../assets/product2.jpg';
+import third from '../assets/product3.jpg';
 
 const Card = ({ image, name, desc, id, customClass }) => {
   return (
@@ -21,8 +21,8 @@ const Products = () => {
       <h1>Our products</h1>
       <div className="teamGrid">
         <Card image={first} name="one" desc="sdfgse" id="one" />
-        <Card image={second} name="two" desc="asgfres" id="two" />
-        <Card image={third} name="three" desc="sergserg" id="three" customClass="centeredCard" />
+        <Card image={''} name="two" desc="asgfres" id="two" />
+        <Card image={''} name="three" desc="sergserg" id="three" customClass="centeredCard" />
       </div>
     </div>
   );
