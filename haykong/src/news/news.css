@@ -1,0 +1,21 @@
+.new-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #1a3642, #2e525f, #396a7f);
+  text-align: center;
+}
+
+.new-message {
+  font-size: 32px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.new-subtext {
+  font-size: 18px;
+  color: #d0d0d0;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}

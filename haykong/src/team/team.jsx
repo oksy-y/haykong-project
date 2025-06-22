@@ -25,6 +25,8 @@ import aharon from '../assets/aharon.jpg';
 import garik from '../assets/garik.jpg';
 import arayik from '../assets/arayik.jpg';
 import aren from '../assets/aren.jpg';
+import andranik from '../assets/andranik.jpg';
+import nerses from '../assets/nerses.jpg';
 
 
 const Team = () => {
@@ -71,7 +73,7 @@ const Team = () => {
   ];
 
   const devopsStudents = [
-    { name: 'Nerses', surname: 'Mezhlumyan', image: '/' },
+    { name: 'Nerses', surname: 'Mezhlumyan', image: nerses },
     { name: 'Aren', surname: 'Movsesyan', image: aren },
   ];
 
@@ -83,8 +85,8 @@ const Team = () => {
     { name: 'Mane', surname: 'Khanazaryan', image: mane },
     { name: 'Aren', surname: 'Movsesyan', image: aren },
     { name: 'Anush', surname: 'Sargsyan', image: anush },
-    { name: 'Nerses', surname: 'Mezhlumyan', image: '/' },
-    { name: 'Andranik', surname: 'Simonyan', image: '/' },
+    { name: 'Nerses', surname: 'Mezhlumyan', image: nerses },
+    { name: 'Andranik', surname: 'Simonyan', image: andranik },
     { name: 'Artyom', surname: 'Manasyan', image: artyom },
   ];
 

@@ -20,7 +20,7 @@ const Products = () => {
     <div className="teamPageWrapper">
       <h1>Our products</h1>
       <div className="teamGrid">
-        <Card image={first} name="one" desc="sdfgse" id="one" />
+        <Card image={first} name="Car Line Follower" desc="Irina Vardanyan" id="one" />
         <Card image={''} name="two" desc="asgfres" id="two" />
         <Card image={''} name="three" desc="sergserg" id="three" customClass="centeredCard" />
       </div>

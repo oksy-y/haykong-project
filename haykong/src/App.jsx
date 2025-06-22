@@ -5,7 +5,7 @@ import Home from "./pages/homepage";
 import About from './pages/about';
 import OurProducts from './pages/ourProducts';
 import EachProductPage from './pages/eachProduct';
-// import News from './pages/news';
+import News from './pages/news';
 import Teams from './pages/team';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
             <Route path="/our-products" element={<OurProducts />} />
             <Route path="/product/:id" element={<EachProductPage />} />
             <Route path="/team" element={<Teams />} />
-            {/* <Route path="/news" element={<News />} /> */}
+            <Route path="/news" element={<News />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
