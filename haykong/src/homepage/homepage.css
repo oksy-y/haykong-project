@@ -22,7 +22,7 @@
   transform: translateX(-50%);
   width: 90%;
   max-width: 800px;
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,6 +30,9 @@
   color: #ffffff;
   z-index: 1;
   box-sizing: border-box;
+  background-color: rgba(0, 36, 61, 0.7);
+  border-radius: 12px;
+  backdrop-filter: blur(3px);
 }
 
 .overlayText h1 {

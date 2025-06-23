@@ -20,9 +20,9 @@ const Products = () => {
     <div className="teamPageWrapper">
       <h1>Our products</h1>
       <div className="teamGrid">
-        <Card image={first} name="Car Line Follower" desc="Irina Vardanyan" id="Car Line Follower" />
-        <Card image={''} name="two" desc="asgfres" id="two" />
-        <Card image={''} name="three" desc="sergserg" id="three" customClass="centeredCard" />
+        <Card image={first} name="Car Line Follower" desc="Irina Vardanyan, Vahe Ayvazyan" id="Car Line Follower" />
+        <Card image={''} name="Car Plate Detection" desc="Mane Khanazaryan, David Petrosyan" id="Car Plate Detection" />
+        <Card image={''} name="AI Agent Assistant Using Flowise" desc="Nare Shaqaryan" id="AI Agent Assistant Using Flowise" customClass="centeredCard" />
       </div>
     </div>
   );
