@@ -22,7 +22,7 @@ const Products = () => {
       <div className="teamGrid">
         <Card image={first} name="Car Line Follower" desc="Irina Vardanyan, Vahe Ayvazyan" id="Car Line Follower" />
         <Card image={second} name="Car Plate Detection" desc="Mane Khanazaryan, David Petrosyan" id="Car Plate Detection" />
-        <Card image={''} name="AI Agent Assistant Using Flowise" desc="Nare Shaqaryan" id="AI Agent Assistant Using Flowise" customClass="centeredCard" />
+        <Card image={third} name="AI Agent Assistant Using Flowise" desc="Nare Shaqaryan" id="AI Agent Assistant Using Flowise" customClass="centeredCard" />
       </div>
     </div>
   );
