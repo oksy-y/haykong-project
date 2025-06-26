@@ -2,13 +2,13 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import './eachProduct.css';
 import first from '../assets/product1.jpg';
-import second from '../assets/mane.jpg';
+import second from '../assets/product2.jpg';
 import third from '../assets/ika.jpg';
 
 const images = {
   "Car Line Follower": first,
-  "two": second,
-  "three": third,
+  "Car Plate Detection": second,
+  "AI Agent Assistant Using Flowise": third,
 };
 
 const descriptions = {

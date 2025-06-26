@@ -13,7 +13,7 @@
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 198, 255, 0.2);
-  flex-wrap: wrap; /* Makes it responsive */
+  flex-wrap: wrap; 
 }
 
 .eachProductCard img {
@@ -40,3 +40,4 @@
   text-align: left;
   line-height: 1.6;
 }
+
